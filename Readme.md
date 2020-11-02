@@ -45,7 +45,7 @@ This is the Keras implementation of Faster RCNN architecture: Towards Real Time 
 ### **Testing:**
 - [test_frcnn](test_frcnn.py) is used to test the model
 ```python
-        python test_frcnn.py -p test_images/ - a images.txt
+        python test_frcnn.py -p test_images/ -a images.txt
 ```
 - The input arguments should be a path to the test images folder and a text file with each line in the following format. The text file is needed to calculate mAP.
 
